@@ -1,0 +1,18 @@
+-Ver tips para Tetris
+-Criar por estados (Peça que me deram, onde está, posição das já posicionadas,orientação da peça)
+
+For each figure rotation and for each horizontal position, simulate “spacebar” 
+and check the height of our new tower and the number of “holes”.
+Choose the best one, and
+Rotate if the rotation does not correspond
+Move horizontally to move to the corresponding position.
+Drop if the position is correct.
+
+
+MELHOR OPCAO = MENOR NUMERO DE HOLES
+               MENOR ALTURA
+    
+EXPERIMENTAR TODAS AS POSICOES
+             TODAS AS ROTACOES
+
+DROPAR NA MELHOR OPCAO
